@@ -62,7 +62,8 @@ class _MyHomePageState extends State<AppPage>
     _list
       ..add(FirstPage())
 //      ..add(MainPage())
-      ..add(WidgetPage(Provider.db))
+//      ..add(WidgetPage(Provider.db))
+      ..add(WidgetPage())
       ..add(CollectionPage())
       ..add(FourthPage());
   }

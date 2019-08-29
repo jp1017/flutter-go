@@ -64,7 +64,7 @@ class _WidgetDemoState extends State<WidgetDemo> {
   @override
   void initState() {
     super.initState();
-    _collectionControl.getRouterByName(widget.title).then((list) {
+/*    _collectionControl.getRouterByName(widget.title).then((list) {
       widgetDemosList.forEach((item) {
         if (item.name == widget.title) {
           _router = item.routerName;
@@ -75,7 +75,7 @@ class _WidgetDemoState extends State<WidgetDemo> {
           _hasCollected = list.length > 0;
         });
       }
-    });
+    });*/
   }
 
 // 点击收藏按钮

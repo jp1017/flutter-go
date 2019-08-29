@@ -125,7 +125,8 @@ class _MyHomePageState extends State<AppPage>
       appBar: new AppBar(title: buildSearchInput(context)),
       body: new TabBarView(controller: controller, children: <Widget>[
         new FirstPage(),
-        new WidgetPage(db),
+//        new WidgetPage(db),
+        new WidgetPage(),
         new CollectionPage(),
         FourthPage()
       ]),
